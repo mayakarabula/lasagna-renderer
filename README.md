@@ -1,5 +1,5 @@
 # Lasagna renderer
 
-## also just simply a demo of sprite stacking technique in vanilla js
+also just simply a demo of a sprite stacking technique in vanilla js
 
-![forrest.gif](forrest)
+![forrest](forrest.gif)
