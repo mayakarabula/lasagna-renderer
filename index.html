@@ -1,11 +1,19 @@
 <html>
-  <script src="index.js"></script>
+  <script src="getFrame.js"></script>
+  <!-- <script src="index.js"></script> -->
+
+  <script src="base.js"></script>
 
   <body>
-    <canvas id="canvas" width="450" height="500"></canvas>
+    <canvas id="canvas" width="500" height="500"></canvas>
 
-    <img src="models/scene.png" id="source" />
-    <img src="models/girl.png" id="girl" />
+    <input type="range" min="0" max="200" id="x" value="0" />
+    <input type="range" min="0" max="100" id="y" value="0" />
+    <input type="range" min="0" max="900" id="z" value="75" />
+
+    <img src="models/grass_ground.png" id="source" />
+    <img src="models/water.png" id="water" />
+    <img src="models/ground_tree.png" id="tree" />
 
     <style>
       canvas {
